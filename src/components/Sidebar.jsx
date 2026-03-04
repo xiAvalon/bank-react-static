@@ -1,3 +1,5 @@
+import logo from "../assets/logo.png";
+
 export default function Sidebar() {
   return (
     <aside className="sidebar">
@@ -28,7 +30,7 @@ export default function Sidebar() {
       <div className="sidebar-footer">
         <div className="footer-logo">
           <div className="brand-logo">
-            <img src="src/assets/logo.png" alt="bank logo" />
+            <img src={logo} alt="bank logo" />
           </div>
 
           <div className="footer-note">

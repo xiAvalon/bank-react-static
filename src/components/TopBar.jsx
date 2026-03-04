@@ -1,8 +1,10 @@
+import navLogo from "../assets/nav-logo.png";
+
 export default function TopBar() {
   return (
     <header className="top-bar">
       <div className="brand">
-        <div className="brand-mark"><img src="src/assets/nav-logo.png" alt="Brand Logo" /></div>
+        <div className="brand-mark"><img src={navLogo} alt="Brand Logo" /></div>
         <div className="brand-text">
           <div className="brand-ar">بنك الاستثمار العربي</div>
           <div className="brand-en">ARAB INVESTMENT BANK</div>
